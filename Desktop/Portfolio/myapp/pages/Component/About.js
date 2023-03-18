@@ -4,18 +4,14 @@ import Image from 'next/image'
 import aboutJson from '../Json/AboutmeSkills.json'
 import licenses from '../Json/AboutmeLicenses.json'
 
+
+
 function About() {
-
-
-    // useEffect(()=>{
-
-    // },[])
-
 
     return (
         <>
             <NavBar />
-            <div style={{marginTop:"70px"}}></div>
+            <div style={{ marginTop: "70px" }}></div>
             <div className="clearfix my-3" >
                 <img src="/aboutPageImage.jpg" className="col-md-6 float-md-end mb-3 my-3 ms-md-3" style={{ maxWidth: "700px", width: "100%", borderRadius: "20px" }} alt="..." />
                 <div className='my-5'></div>
@@ -58,23 +54,23 @@ function About() {
 
                 <div class="container">
                     <div class="row">
-                        {licenses.map((element)=>(
+                        {licenses.map((element) => (
                             <div class="card-wrapper col-lg-3 col-md-6 col-xs-12">
-                            <div class="card"  style={{maxWidth:"300px", width:"100%"}}>
-                                <div class="card-img-wrapper">
-                                    <img class="card-img-top" src={element.logo} style={{width:"100px"}} alt="Card image cap" />
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="content card-title">{element.tittle}</h5>
-                                    <div class="card-content">
-                                        <p class="content card-text">{element.description}</p>
+                                <div class="card" style={{ maxWidth: "300px", width: "100%" }}>
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src={element.logo} style={{ width: "100px" }} alt="Card image cap" />
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="content card-title">{element.tittle}</h5>
+                                        <div class="card-content">
+                                            <p class="content card-text">{element.description}</p>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         ))}
-                        
+
                     </div>
                 </div>
             </div>
@@ -82,6 +78,14 @@ function About() {
 
 
             <h1 className=' textfont text-center my-5' > Reward & Recognition</h1>
+            <div className='container' >
+                <div className='box'>
+                    <h4 className='rewards text-center my-3' style={{ margin: "10px" }}>Yellow.ai Hackathon</h4>
+                    <p className='text-center  my-3 '>Our team has secured the third position in the yellow.ai Hackathon by proposing an innovative use case for our organization. We came up with an idea to develop a chatbot that would allow restaurants to donate their excess food to nearby non-profit organizations. The bot would collect all the necessary information about the food, owners, and other relevant details to facilitate the process. With the help of my teammates, we were able to achieve this accomplishment, and I am incredibly proud of our efforts.</p>
+
+                </div>
+            </div>
+
         </>
     )
 }
