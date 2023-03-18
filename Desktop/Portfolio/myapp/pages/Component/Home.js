@@ -1,7 +1,8 @@
 import { Inter } from 'next/font/google'
-import NavBar from './Component/NavBar'
+import NavBar from './NavBar'
 import Image from 'next/image'
-import Contact from './Component/SideNavBar'
+import Contact from './SideNavBar'
+import About from './About'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +18,7 @@ export default function Home() {
 
       </div>
       <p></p>
-     
+        {/* <About/> */}
     </>
   )
 }

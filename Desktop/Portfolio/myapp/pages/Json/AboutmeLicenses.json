@@ -1,0 +1,42 @@
+[
+    {
+       "tittle":"Yellow.ai Certified Platform Associate",
+       "description":"Here I have done data analysis regarding the marks of the student and several other questions and created a visualization.",
+       "logo":"https://logosandtypes.com/wp-content/uploads/2023/02/Yellow-ai.png"
+    },
+    {
+       "tittle":"Platform Associate",
+       "description":"Yellow.ai",
+       "logo":"https://logosandtypes.com/wp-content/uploads/2023/02/Yellow-ai.png"
+    },
+    {
+       "tittle":"Google Data Analytics Specialization",
+       "description":"Developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductorylevel roles in Data Analytics.",
+       "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+    },
+    {
+       "tittle":"Data Analysis with Python",
+       "description":"Here I have done data analysis regarding the marks of the student and several other questions and created a visualization.",
+       "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+    },
+    {
+       "tittle":"Foundations: Data, Data, Everywhere",
+       "description":"Mastering Data Management: Essential Skills in Spreadsheet, Data Cleansing, Analysis, Visualization, and SQL.",
+       "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+    },
+    {
+       "tittle":"Introduction to Data Analysis Using Excel",
+       "description":"I learned a variety of valuable skills through my experience with Lookup Table, Data Analysis, Microsoft Excel, and Pivot Table.",
+       "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+    },
+    {
+       "tittle":"Introduction to Data Analytics",
+       "description":"Data Analytics: process of analyzing data to extract insights. Data roles include Engineer, Analyst, Scientist, Business Analyst, and BI Analyst.",
+       "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+    },
+    {
+       "tittle":"Customer Analytics",
+       "description":"This course is related to the use of data to understand the composition, needs and satisfaction of the customer.",
+       "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+    }
+ ]
