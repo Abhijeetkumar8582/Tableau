@@ -7,109 +7,70 @@ import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 import expItem from '../Json/Expirence.json'
 
 
 function Experience() {
-  return (
-    <>
-    <NavBar/>
-   <h1 style={{marginTop:"10%"}} className={Style.test}>k</h1>
-   <Timeline position="alternate">
-  {expItem.map((element,index)=>
+    return (
+        <>
+            <NavBar />
+            <h1 className={Style.heading} >Where I’ve Worked</h1>
+            <Timeline position="alternate">
+
+                {expItem.map((element, index) =>
+
+                    index % 2 === 0 ? (<TimelineItem key={index}>
+
+                        <TimelineSeparator key={index}>
+                            <TimelineConnector sx={{ bgcolor: 'success.main' }} />
+                            <TimelineDot color="success" variant="outlined">
+                                <img src={element.logo} alt="Picture of the author" width={30} height={30} style={{ borderRadius: "20px" }}></img>
+                            </TimelineDot>
+                            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                        </TimelineSeparator>
+                        <div className={Style.box} >
+                            <TimelineContent sx={{ py: '12px', px: 2 }}>
+
+                                <Typography variant="h6" component="span">
+                                    {element.desginstion}
+                                </Typography>
+                                <h4>{element.jobtype}</h4>
+                                <Typography>{element.jobRole}</Typography>
+
+                            </TimelineContent>
+                        </div>
+                    </TimelineItem>)
+                        : (
+
+                            <TimelineItem key={index}>
+                                <TimelineSeparator>
+                                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                                    <TimelineDot color="primary" variant="outlined">
+                                        <img src={element.logo} alt="Picture of the author" width={30} height={30} style={{ borderRadius: "20px" }}></img>
+                                    </TimelineDot>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <div className={Style.box} >
+                                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                                        <Typography variant="h6" className={Style.desginstion} component="span">
+                                            {element.desginstion}
+                                        </Typography>
+                                        <h4>{element.jobtype}</h4>
+                                        <Typography>{element.jobRole}
+
+                                        </Typography>
+                                    </TimelineContent>
+                                </div>
+                            </TimelineItem>)
 
 
-    
-        index%2===0?(<TimelineItem key={index}>
-      <TimelineSeparator>
-        <TimelineConnector />
-        <TimelineDot color="primary" variant="outlined">
-          <HotelIcon />
-        </TimelineDot>
-        <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-      </TimelineSeparator>
-      <TimelineContent sx={{ py: '12px', px: 2 }}>
-        <Typography variant="h6" component="span">
-          {element.desginstion}
-        </Typography>
-        <Typography>{element.jobtype}</Typography>
-      </TimelineContent>
-    </TimelineItem>)
-    :(
-    
-     <TimelineItem>
-      <TimelineSeparator>
-        <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-        <TimelineDot color="secondary">
-          <RepeatIcon />
-        </TimelineDot>
-        <TimelineConnector />
-      </TimelineSeparator>
-      <TimelineContent sx={{ py: '12px', px: 2 }}>
-        <Typography variant="h6" component="span">
-        {element.desginstion}
-        </Typography>
-        <Typography>{element.jobtype}</Typography>
-        <Typography>{element.jobRole}</Typography>
-      </TimelineContent>
-    </TimelineItem>)
-        
-
-   
- 
-  )}
-    </Timeline>
-   </>
-  )
+                )}
+            </Timeline>
+        </>
+    )
 }
 
 export default Experience
 
-
-{/* <>
-
-<Timeline position="alternate">
-  {licenses.map((element, index) =>
-    index % 2 === 0 ? (
-      <TimelineItem key={index}>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
-            <HotelIcon />
-          </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span">
-            {element.tittle}
-          </Typography>
-          <Typography>Because you need rest</Typography>
-        </TimelineContent>
-      </TimelineItem>
-    ) : (
-      <TimelineItem key={index}>
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-          <TimelineDot color="secondary">
-            <RepeatIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span">
-            Repeat
-          </Typography>
-          <Typography>Because this is the life you love!</Typography>
-        </TimelineContent>
-      </TimelineItem>
-    )
-  )}
-</Timeline> 
- </> */}

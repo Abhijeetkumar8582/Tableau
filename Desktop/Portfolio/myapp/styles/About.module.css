@@ -1,3 +1,31 @@
-.test{
-color: azure;
+.heading{
+color: rgb(0, 0, 0);
+text-align: center;
+margin-top: 7%;
+font-family: Copperplate;
 }
+.box{
+    border: 2px saddlebrown;
+    background-color:#ffd4b6;
+    max-width: 683px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.box:hover{
+    background-color:#FDA260; 
+    transform: translateY(-5px);
+}
+.desginstion{
+    text-align: left}
+
+
+    @media only screen and (max-width: 600px) {
+       .heading{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-top: 15%;
+            font-family: Copperplate;
+            }
+      }
