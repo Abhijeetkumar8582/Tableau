@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react'
 import NavBar from './NavBar'
 import Image from 'next/image'
 import aboutJson from '../Json/AboutmeSkills.json'
 import licenses from '../Json/AboutmeLicenses.json'
+import { useTheme } from '@mui/material/styles';
 
 
 
 function About() {
+    const theme = useTheme();
 
     return (
         <>
@@ -80,11 +81,15 @@ function About() {
             <h1 className=' textfont text-center my-5' > Reward & Recognition</h1>
             <div className='container' >
                 <div className='box'>
-                    <h4 className='rewards text-center my-3' style={{ margin: "10px" }}>Yellow.ai Hackathon</h4>
+                    <Image></Image>
+                    <h4 className='rewards text-center my-3' style={{ Top: "10px", fontFamily: "initial" }}>Yellow.ai Hackathon</h4>
                     <p className='text-center  my-3 '>Our team has secured the third position in the yellow.ai Hackathon by proposing an innovative use case for our organization. We came up with an idea to develop a chatbot that would allow restaurants to donate their excess food to nearby non-profit organizations. The bot would collect all the necessary information about the food, owners, and other relevant details to facilitate the process. With the help of my teammates, we were able to achieve this accomplishment, and I am incredibly proud of our efforts.</p>
-
+                    <Image></Image>
                 </div>
+
             </div>
+
+
 
         </>
     )

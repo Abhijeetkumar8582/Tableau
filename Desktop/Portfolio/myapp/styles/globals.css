@@ -49,6 +49,7 @@
   overflow: hidden;
   min-height: 300px;
   height: 100%;
+  border: 2px salmon;
 }
 .card:hover {
   box-shadow: 8px 12px 31px -10px #ab98ab;
@@ -105,18 +106,17 @@ body {
 }
 .box{
   background-color: rgb(255, 255, 255);
-  /* width: 100vw; */
 }
 
 .box:hover{
   border-color: aquamarine;
-  /* transform: translateX(15px); */
-  box-shadow: 0px 0px 20px #00000020;
-  border-left: 10px black;
-  box-shadow: "3px 7px"
-  /* box-shadow: 0px 10px 20px #00000020; */
+  box-shadow: 0px 10px 30px #00000020;;
+  
+  transform: "translateY(5px)";
 }
 
 .rewards{
   margin-top: 1rem;
 }
+
+

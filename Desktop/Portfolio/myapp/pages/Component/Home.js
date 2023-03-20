@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <Contact/>
+      {/* <Contact/> */}
       <h1 className='text-center' style={{ marginTop: "10%", fontFamily: "Copperplate" }}><strong>Forntend Developer & ChatBot Developer</strong></h1>
       <p className='text-center my-4 mx-4' style={{ fontFamily: "Chalkduster" }}>React-ing like there's no tomorrow: How I learned to stop worrying and love the component lifecycle!</p>
       <div className='d-flex justify-content-center'>
@@ -19,6 +19,7 @@ export default function Home() {
       </div>
       <p></p>
         {/* <About/> */}
+        <h1>l,</h1>
     </>
   )
 }

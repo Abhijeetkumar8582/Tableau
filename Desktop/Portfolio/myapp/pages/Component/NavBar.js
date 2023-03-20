@@ -17,10 +17,10 @@ function NavBar() {
                                 <Link className="nav-link active mx-2" href="/Component/About">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link mx-2" href="/Product/product">Expirence</Link>
+                                <Link className="nav-link mx-2" href="/Component/Experience">Experience</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link mx-2" href="#">Projects</Link>
+                                <Link className="nav-link mx-2" href="/Component/Project">Projects</Link>
                             </li>
                         </ul>
                     </div>
