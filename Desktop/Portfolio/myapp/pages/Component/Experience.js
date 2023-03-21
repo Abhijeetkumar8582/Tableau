@@ -13,6 +13,8 @@ import expItem from '../Json/Expirence.json'
 
 
 function Experience() {
+    // document.title="Experience"
+
     return (
         <>
             <NavBar />
@@ -33,11 +35,11 @@ function Experience() {
                         <div className={Style.box} >
                             <TimelineContent sx={{ py: '12px', px: 2 }}>
 
-                                <Typography variant="h6" component="span">
+                                <Typography variant="h6" className={Style.desginstion} component="span">
                                     {element.desginstion}
                                 </Typography>
-                                <h4>{element.jobtype}</h4>
-                                <Typography>{element.jobRole}</Typography>
+                                <h5 className={Style.jobtype}>{element.jobtype}</h5>
+                                <Typography className={Style.jobrole}>{element.jobRole}</Typography>
 
                             </TimelineContent>
                         </div>
@@ -57,8 +59,8 @@ function Experience() {
                                         <Typography variant="h6" className={Style.desginstion} component="span">
                                             {element.desginstion}
                                         </Typography>
-                                        <h4>{element.jobtype}</h4>
-                                        <Typography>{element.jobRole}
+                                        <h5 className={Style.jobtype}>{element.jobtype}</h5>
+                                        <Typography className={Style.jobrole}>{element.jobRole}
 
                                         </Typography>
                                     </TimelineContent>

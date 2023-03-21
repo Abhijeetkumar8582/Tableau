@@ -12,8 +12,13 @@
 .textfont{
   font-family: Copperplate;
 }
-
-
+.btn::after{
+  margin-bottom: -70px;
+ 
+}
+.card-image-title-description .card .card-img-wrapper::after {
+  margin-bottom: -70px;
+}
 
 .card-wrapper {
   margin-bottom: 30px;
@@ -85,6 +90,7 @@
   background-color: #fff;
   transition: 1.5s ease;
 }
+
 .card-content {
   left: 0;
   right: 0;
@@ -93,12 +99,16 @@
   height: auto;
   transition: 1.5s ease;
 }
+
 .card:hover .card-body {
   height: 70%;
   background-color: aqua;
 }
 .card:hover .card-content {
   bottom: 0;
+}
+.card::after.card-content {
+ margin-bottom: -70px;
 }
 body {
   margin: 0;

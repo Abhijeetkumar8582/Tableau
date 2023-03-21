@@ -16,10 +16,23 @@ font-family: Copperplate;
 .box:hover{
     background-color:#FDA260; 
     transform: translateY(-5px);
+    border-bottom: 2px solid #FDA260;
 }
-.desginstion{
-    text-align: left}
 
+
+
+
+.desginstion{
+    text-align: left;
+    font-family: Comic Sans MS;
+}
+
+.jobtype{
+    font-family: Comic Sans MS;
+}
+.jobrole{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
     @media only screen and (max-width: 600px) {
        .heading{

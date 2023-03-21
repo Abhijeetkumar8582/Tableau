@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <NavBar />
       {/* <Contact/> */}
-      <h1 className='text-center' style={{ marginTop: "10%", fontFamily: "Copperplate" }}><strong>Forntend Developer & ChatBot Developer</strong></h1>
+      <h1 className='text-center' style={{ marginTop: "10%", fontFamily: "Copperplate" }}><strong>Forntend Developer</strong></h1>
       <p className='text-center my-4 mx-4' style={{ fontFamily: "Chalkduster" }}>React-ing like there's no tomorrow: How I learned to stop worrying and love the component lifecycle!</p>
       <div className='d-flex justify-content-center'>
         <Image src="/mainPage.jpg" alt="Picture of the author" width={350} height={350}></Image>
