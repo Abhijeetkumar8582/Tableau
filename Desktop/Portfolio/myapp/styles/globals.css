@@ -60,6 +60,11 @@
   box-shadow: 8px 12px 31px -10px #ab98ab;
   
 }
+.imageDiv{
+  border-radius: 10px;
+  margin-left: 35%;
+  max-width: 500px;
+}
 .card-img-wrapper {
   display: flex;
   align-items: center;
@@ -128,5 +133,6 @@ body {
 .rewards{
   margin-top: 1rem;
 }
+
 
 

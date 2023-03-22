@@ -1,0 +1,24 @@
+[
+    {
+       "title":"OMNIPEXEL",
+       "description":"I built an image search web page from scratch using pixel APIs, incorporating an infinite scroll feature for a more seamless user experience.",
+       "image":"/Image/omnipexel.png",
+       "code":"React, Material UI, API ",
+       "button":"https://omnipexelproject.netlify.app/"
+    },
+    {
+        "title":"NOWCAST",
+        "description":"I developed an application called NewApp that retrieves categories and news from APIs and updates them on a daily basis.",
+        "image":"/Image/newsapp.png",
+        "code":"React, Material UI, API ",
+        "button":"https://newsappjsxreact.netlify.app/"
+     },
+     {
+        "title":"CHARTEXT",
+        "description":"I designed a text conversion application that allows users to input their data and convert the cases according to their specific requirements.",
+        "image":"/Image/chartext.png",
+        "code":"React, Javascript",
+        "button":"https://chartextreact.netlify.app/"
+     }
+    
+ ]

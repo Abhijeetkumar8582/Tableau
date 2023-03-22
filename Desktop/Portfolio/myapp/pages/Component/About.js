@@ -28,7 +28,7 @@ function About() {
             <NavBar />
             <div style={{ marginTop: "70px" }}></div>
             <div className="clearfix my-3" >
-                <img src="/Image/aboutPageImage.jpg" className="col-md-6 float-md-end mb-3 my-3 ms-md-3" style={{ maxWidth: "700px", width: "100%", borderRadius: "20px" }} alt="..." />
+                <img src="/Image/aboutPageImage.jpg" className="col-md-6 float-md-end mb-3 my-3 ms-md-3" style={{ maxWidth: "700px", width: "100%", borderRadius: "20px" }} alt="AboutMe" />
                 <div className='my-5'></div>
                 <h1 className='textfont text-center my-5'  >So, who am I?</h1>
 
@@ -48,12 +48,12 @@ function About() {
             <h1 className='textfont  text-center my-3' style={{ fontFamily: "Copperplate" }}> Skills & Abilities</h1>
             <div className='container  my-5' style={{ width: "100%", maxWidth: "100vw" }}>
                 <div className='row '>
-                    {aboutJson.map((element) => (
-                        <div className='col-md-3'>
-                            <div class=" mx-3 my-3" style={{ width: "18rem", borderRadius: "20px", backgroundColor: "#FDA260", boxShadow: "3px 7px", marginLeft: "auto" }}>
-                                <img src={element.logo} style={{ width: "100px", marginLeft: "32%" }} class="-img-top " alt="..." />
-                                <div class="-body">
-                                    <p class="content -text text-center"><strong>{element.skills}</strong></p>
+                    {aboutJson.map((element, index) => (
+                        <div className='col-md-3' key={index}>
+                            <div className=" mx-3 my-3" style={{ width: "18rem", justifyContent: "center", borderRadius: "20px", backgroundColor: "#FDA260", boxShadow: "3px 7px", marginLeft: "auto" }}>
+                                <img src={element.logo} style={{ width: "100px", justifyContent: "center", marginLeft: "32%" }} className="-img-top " alt={element.skills} />
+                                <div className="-body">
+                                    <p className="content -text text-center"><strong>{element.skills}</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -67,28 +67,28 @@ function About() {
             <h1 className='textfont text-center my-5' style={{ fontFamily: "Copperplate" }}> Licenses & certifications</h1>
             <div className='container  my-5' style={{ width: "100%", maxWidth: "100vw" }}>
 
-                <div class="container">
-                    <div class="row">
-                        {licenses.map((element,index) => (
-                            <div class="card-wrapper col-lg-3 col-md-6 col-xs-12" key={element.tittle}>
-                                <div class="card" style={{ maxWidth: "300px", width: "100%" }}>
-                                    <div class="card-img-wrapper">
-                                        <img class="card-img-top" src={element.logo} style={{ width: "100px" }} alt="Card image cap" />
+                <div className="container">
+                    <div className="row">
+                        {licenses.map((element, index) => (
+                            <div className="card-wrapper col-lg-3 col-md-6 col-xs-12" key={element.tittle}>
+                                <div className="card" style={{ maxWidth: "300px", width: "100%" }}>
+                                    <div className="card-img-wrapper">
+                                        <img className="card-img-top" src={element.logo} style={{ width: "100px" }} alt="Card image cap" />
                                     </div>
-                                    <div class="card-body">
-                                        <h5 class="content card-title">{element.tittle}</h5>
-                                        <div class="card-content">
-                                            <p class="content card-text">{element.description}</p>
+                                    <div className="card-body">
+                                        <h5 className="content card-title">{element.tittle}</h5>
+                                        <div className="card-content">
+                                            <p className="content card-text">{element.description}</p>
                                         </div>
                                         <div className='content card-text'>
-                                            <Button className='btn' variant="outlined" onClick={()=>handleClickOpen(element.tittle)}>
+                                            <Button className='btn' variant="outlined" onClick={() => handleClickOpen(element.tittle)}>
                                                 Certificate
                                             </Button>
                                             <Dialog
-                                            disablePortal
+                                                disablePortal
                                                 sx={{ width: "100%" }}
                                                 open={open[element.tittle]}
-                                                onClose={()=>handleClose(element.tittle)}
+                                                onClose={() => handleClose(element.tittle)}
                                                 // aria-describedby="alert-dialog-slide-description"
                                                 maxWidth="xl"
                                             >
@@ -97,7 +97,7 @@ function About() {
                                                     <Image src={element.certificate} alt={element.tittle} width={950} height={550}></Image>
                                                 </DialogContent>
                                                 <DialogActions>
-                                                    <Button onClick={()=>handleClose(element.tittle)}>Perfect!!!</Button>
+                                                    <Button onClick={() => handleClose(element.tittle)}>Perfect!!!</Button>
                                                 </DialogActions>
                                             </Dialog>
                                         </div>
