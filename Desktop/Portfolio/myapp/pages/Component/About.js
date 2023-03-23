@@ -87,7 +87,7 @@ function About() {
                                             <p className="content card-text">{element.description}</p>
                                         </div>
                                         <div className='content card-text'>
-                                            <Button className='btn'  onClick={() => handleClickOpen(element.tittle)}>
+                                            <Button className='btn'  style={{backgroundColor:  "#FDA260",border: "none"}} onClick={() => handleClickOpen(element.tittle)}>
                                                 Certificate
                                             </Button>
                                             <Dialog
@@ -95,12 +95,11 @@ function About() {
                                                 sx={{ width: "100%" }}
                                                 open={open[element.tittle]||false}
                                                 onClose={() => handleClose(element.tittle)}
-                                                // aria-describedby="alert-dialog-slide-description"
                                                 maxWidth="xl"
                                             >
                                                 <DialogTitle>{element.tittle}</DialogTitle>
                                                 <DialogContent>
-                                                    <Image src={element.certificate} priority  alt={element.tittle} width={950} height={550}></Image>
+                                                    <Image src={element.certificate}  onError={() => {element.certificate = "/Image/aboutPageImage.jpg"}}  priority  alt={element.tittle} width={950} height={550}></Image>
                                                 </DialogContent>
                                                 <DialogActions>
                                                     <Button onClick={() => handleClose(element.tittle)}>Perfect!!!</Button>
