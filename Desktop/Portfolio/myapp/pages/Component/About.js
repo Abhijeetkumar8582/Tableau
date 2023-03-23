@@ -87,7 +87,7 @@ function About() {
                                             <p className="content card-text">{element.description}</p>
                                         </div>
                                         <div className='content card-text'>
-                                            <Button className='btn'  style={{backgroundColor:  "#FDA260",border: "none"}} onClick={() => handleClickOpen(element.tittle)}>
+                                            <Button className='btn'  style={{backgroundColor:  "#FDA260",color:"black",border: "none"}} onClick={() => handleClickOpen(element.tittle)}>
                                                 Certificate
                                             </Button>
                                             <Dialog
