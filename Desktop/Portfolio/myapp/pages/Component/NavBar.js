@@ -1,13 +1,15 @@
 
 import Link from 'next/link'
 
+
 function NavBar() {
 
     return (
         <>
+         
             <nav className="navbar navbar-expand-lg fixed-top navbar-light" style={{ backgroundColor: "#FDA260" }}>
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="/" style={{ color: "white" }}>Abhi</Link>
+                    <Link className="navbar-brand" href="/Component/Home" style={{ color: "black",fontFamily:"Copperplate" }}>Home</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

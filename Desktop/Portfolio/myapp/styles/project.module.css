@@ -1,8 +1,8 @@
-.heading{
+.heading {
     color: rgb(0, 0, 0);
-text-align: center;
-margin-top: 7%;
-font-family: Copperplate;
+    text-align: center;
+    margin-top: 7%;
+    font-family: Copperplate;
 }
 
 
@@ -12,10 +12,10 @@ font-family: Copperplate;
 
 
 @media only screen and (max-width: 600px) {
-    .heading{
-         color: rgb(0, 0, 0);
-         text-align: center;
-         margin-top: 15%;
-         font-family: Copperplate;
-         }
-   }
+    .heading {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 15%;
+        font-family: Copperplate;
+    }
+}

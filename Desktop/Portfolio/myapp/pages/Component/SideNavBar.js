@@ -2,26 +2,36 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Head from 'next/head';
 
 
 function Contact() {
+  const url = (event) => {
+    window.open(event, '_blank');
+  };
+  
   return (
     <>
+    <Head>
+      <title>Home</title>
+    </Head>
       <div style={{ position: "fixed" }}>
 
 
         <div className='d-flex flex-column' style={{ top: "15%" }} >
 
-          <GitHubIcon sx={{
+          <GitHubIcon  sx={{
             width: 30,
             height: 30,
             marginTop: 50,
+            
             marginLeft: 1,
             '&:hover': {
               fill: "#4b68fa",
               transform: "translateY(-5px)"
             },
-          }} />
+            
+          }} onClick={() => url("https://www.google.comhttps://github.com/Abhijeetkumar8582")} />
 
 
           <EmailIcon sx={{
@@ -33,7 +43,7 @@ function Contact() {
               fill: "#f72500",
               transform: "translateY(-5px)"
             },
-          }} />
+          }} onClick={() => url("mailto:abhijeet122kumar@gmail.com")}  />
 
 
           <LinkedInIcon sx={{
@@ -46,7 +56,7 @@ function Contact() {
               fill: "#0021f7",
               transform: "translateY(-5px)"
             },
-          }} />
+          }} onClick={() => url("https://www.linkedin.com/in/abhijeet-kumar-696a5a16a/")} />
 
 
           <InstagramIcon sx={{
@@ -58,7 +68,7 @@ function Contact() {
               fill: "#ff4ab7",
               transform: "translateY(-5px)"
             },
-          }} />
+          }} onClick={() => url("https://github.com/Abhijeetkumar8582")}  />
 
         </div>
 

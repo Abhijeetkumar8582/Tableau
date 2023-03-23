@@ -10,13 +10,17 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 import expItem from '../Json/Expirence.json'
+import Head from 'next/head';
 
 
 function Experience() {
-    // document.title="Experience"
-
+  
     return (
         <>
+        <Head>
+        <title>ABHI | Experience</title>
+      </Head>
+      
             <NavBar />
             <h1 className={Style.heading} >Where I’ve Worked</h1>
             <Timeline position="alternate">

@@ -6,16 +6,19 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import projects from '../Json/Projects.json'
+import Head from 'next/head';
 
 function Project() {
-    // document.title="Projects"
+  
     const handleClick = (event) => {
         console.log(event)
-        // event.preventDefault();
         window.open(event, '_blank');
     }
     return (
         <>
+      <Head>
+        <title>ABHI | Project</title>
+      </Head>
             <NavBar />
             <h1 className={Style.heading}>Some Things I’ve Built</h1>
             <div className='d-flex justify-content-center flex-wrap'>

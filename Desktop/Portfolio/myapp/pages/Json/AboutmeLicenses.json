@@ -1,14 +1,14 @@
 [
     {
        "tittle":"Yellow.ai Certified Platform Associate",
-       "description":"Here I have done data analysis regarding the marks of the student and several other questions and created a visualization.",
+       "description":"Learned platform features, query handling, and integration knowledge for effective chatbot creation and management.",
        "logo":"https://logosandtypes.com/wp-content/uploads/2023/02/Yellow-ai.png",
        "certificate":"/Image/certified.jpg"
        
     },
     {
        "tittle":"Platform Associate",
-       "description":"Yellow.ai",
+       "description":"The yellow.ai Platform Associate course teaches the fundamentals of the yellow.ai conversational AI platform, including its features, capabilities, and benefits.",
        "logo":"https://logosandtypes.com/wp-content/uploads/2023/02/Yellow-ai.png",
        "certificate":"/Image/platformAssociate.jpg"
     },
@@ -20,7 +20,7 @@
     },
     {
        "tittle":"Data Analysis with Python",
-       "description":"Here I have done data analysis regarding the marks of the student and several other questions and created a visualization.",
+       "description":"Here, I conducted a data analysis of student marks and answered several related questions through visualization.",
        "logo":"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png",
        "certificate":"/Image/python.png"
     },
