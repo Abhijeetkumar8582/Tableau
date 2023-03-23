@@ -74,7 +74,7 @@ function About() {
             <div className='container  my-5' style={{ width: "100%", maxWidth: "100vw" }}>
 
                 <div className="container">
-                    <div className="row">
+                    <div className="row mx-3">
                         {licenses.map((element, index) => (
                             <div className="card-wrapper col-lg-3 col-md-6 col-xs-12" key={element.tittle}>
                                 <div className="card" style={{ maxWidth: "300px", width: "100%" }}>
@@ -100,7 +100,7 @@ function About() {
                                             >
                                                 <DialogTitle>{element.tittle}</DialogTitle>
                                                 <DialogContent>
-                                                    <Image src={element.certificate}  alt={element.tittle} width={950} height={550}></Image>
+                                                    <Image src={element.certificate} priority  alt={element.tittle} width={950} height={550}></Image>
                                                 </DialogContent>
                                                 <DialogActions>
                                                     <Button onClick={() => handleClose(element.tittle)}>Perfect!!!</Button>
@@ -123,8 +123,8 @@ function About() {
             <div className='container' >
                 <div className='box'>
                   <div style={{padding:"10px"}}></div>
-                    <h4 className='rewards text-center my-3' style={{ Top: "10px",padding:"10px", fontFamily: "initial" }}>Yellow.ai Hackathon</h4>
-                    <p className='text-center  my-3 '>I have secured the third position in the yellow.ai Hackathon by proposing an innovative use case for our organization. We came up with an idea to develop a chatbot that would allow restaurants to donate their excess food to nearby non-profit organizations. The bot would collect all the necessary information about the food, owners, and other relevant details to facilitate the process. With the help of my teammates, we were able to achieve this accomplishment, and I am incredibly proud of our efforts.</p>
+                    <h4 className='rewards text-center my-3' style={{ Top: "10px",padding:"10px",color:"orange", fontFamily: "initial" }}>Yellow.ai Hackathon</h4>
+                    <p className='text-center  my-3 mx-3 '>I have secured the third position in the yellow.ai Hackathon by proposing an innovative use case for our organization. We came up with an idea to develop a chatbot that would allow restaurants to donate their excess food to nearby non-profit organizations. The bot would collect all the necessary information about the food, owners, and other relevant details to facilitate the process. With the help of my teammates, we were able to achieve this accomplishment, and I am incredibly proud of our efforts.</p>
                   <div style={{padding:"10px"}}></div>
                 </div>
 

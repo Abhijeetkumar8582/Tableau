@@ -31,7 +31,7 @@ function Contact() {
               transform: "translateY(-5px)"
             },
             
-          }} onClick={() => url("https://www.google.comhttps://github.com/Abhijeetkumar8582")} />
+          }} onClick={() => url("https://github.com/Abhijeetkumar8582")} />
 
 
           <EmailIcon sx={{
@@ -68,7 +68,7 @@ function Contact() {
               fill: "#ff4ab7",
               transform: "translateY(-5px)"
             },
-          }} onClick={() => url("https://github.com/Abhijeetkumar8582")}  />
+          }} onClick={() => url("https://www.instagram.com/daredevil8582/")}  />
 
         </div>
 
