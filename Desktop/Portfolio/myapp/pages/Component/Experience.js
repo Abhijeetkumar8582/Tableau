@@ -1,6 +1,6 @@
 
 import NavBar from './NavBar'
-import Style from "/Users/abhijeetkumar/Desktop/Portfolio/myapp/styles/About.module.css"
+import Style from"/styles/About.module.css"
 import * as React from 'react';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';

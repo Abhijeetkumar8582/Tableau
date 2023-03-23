@@ -20,20 +20,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Component/About": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Component/About.js"
-    ],
     "/Component/Experience": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Component/Experience.js"
-    ],
-    "/Component/Project": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Component/Project.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
