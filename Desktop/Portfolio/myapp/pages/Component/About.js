@@ -29,7 +29,9 @@ function About() {
         <>  
          <Head>
         <title >ABHI | About</title>
-        
+        <meta name="description"
+        content="Passionate frontend developer with an interest in web development and experience in creating chatbots for an AI startup.... "
+/>
       </Head>
             <NavBar />
             <div style={{ marginTop: "70px" }}></div>

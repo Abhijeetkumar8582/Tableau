@@ -18,6 +18,9 @@ function Project() {
         <>
       <Head>
         <title>ABHI | Project</title>
+        <meta name="description"
+        content="Skilled and innovative developer who's passionate about making life easier. Explore my portfolio of projects, including Omnipexel, Newsapp, and Chartext, and discover.... "
+/>
       </Head>
             <NavBar />
             <h1 className={Style.heading}>Some Things I’ve Built</h1>
