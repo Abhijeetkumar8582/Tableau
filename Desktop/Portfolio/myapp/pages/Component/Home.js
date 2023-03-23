@@ -5,47 +5,11 @@ import About from './About'
 import Experience from './Experience'
 import Project from './Project'
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
-import Alert from '@mui/material/Alert';
-import Notification from './Notification'
+
 
 
 export default function Home() {
-  const [alert, setalert] = useState(false)
-
-    setTimeout(function () {
-        localStorage.removeItem("inbound")
-    }, 500000)
-
-    setTimeout(function () {
-      setalert(false);
-  }, 10000)
-
   
-    useEffect(() => {
-      let isPhone = window.matchMedia("(max-width: 768px)").matches;
-      // console.log(isPhone)
-      const scrolled = window.scrollY
-      if (isPhone && scrolled  > 2700 && scrolled < 2750) {
-        if (!localStorage.getItem("inbound")) {
-          localStorage.setItem("inbound", "Sent");
-          setalert(true);
-        }}
-        window.addEventListener("scroll", () => {
-            let k = document.documentElement.scrollHeight
-            const scrolled = window.scrollY
-            // console.log(scrolled)
-             if (scrolled > 1500 && scrolled < 1550) {
-                if (!localStorage.getItem("inbound")) {
-                    localStorage.setItem("inbound", "Sent");
-
-                    setalert(true);
-                }
-            }
-        })
-    })
-    
-
   
   return (
     
@@ -57,7 +21,7 @@ export default function Home() {
 
       <NavBar />
       
-      {alert === true ?<Notification/>:null}
+      
 
 
       <SideNavBar />
