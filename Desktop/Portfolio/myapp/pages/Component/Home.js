@@ -53,8 +53,8 @@ export default function Home() {
 
       <Head>
       <title> ABHI | Home</title>
-      <meta name="description"
-        content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend "/>
+      <meta property="og:image" content="/mainPage.png"/>
+      <meta property="og:description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend "/>
     </Head>
 
     </>
