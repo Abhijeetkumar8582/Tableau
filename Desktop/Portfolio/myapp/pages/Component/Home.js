@@ -56,25 +56,31 @@ export default function Home() {
   
   {/* <!-- Meta tags for Facebook --> */}
   <meta property="og:title" content="ABHI | Home" />
+  <meta name="description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend"/>
   <meta property="og:description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend" />
-  <meta property="og:image" content="https://img.icons8.com/color/512/nextjs.png" />
+  <meta property="og:image" content="/mainPage.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="628" />
   <meta property="og:url" content="https://abhijeet-kumar-dev.netlify.app/Component/Home" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ABHI" />
 
   {/* <!-- Meta tags for WhatsApp --> */}
   <meta property="og:title" content="ABHI | Home" />
+  <meta name="description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend"/>
   <meta property="og:description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend" />
-  <meta property="og:image" content="https://img.icons8.com/color/512/nextjs.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="628" />
+  <meta property="og:image" content="/mainPage.png" />
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="1080" />
   <meta property="og:url" content="https://abhijeet-kumar-dev.netlify.app/Component/Home" />
+  <meta property="og:type" content="website" />
+<meta property="og:site_name" content="ABHI" />
 
   {/* <!-- Meta tags for LinkedIn --> */}
   <meta property="og:title" content="ABHI | Home" />
+  <meta name="description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend"/>
   <meta property="og:description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend" />
-  <meta property="og:image" content="https://img.icons8.com/color/512/nextjs.png" />
+  <meta property="og:image" content="/mainPage.png"/>
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="628" />
   <meta property="og:url" content="https://abhijeet-kumar-dev.netlify.app/Component/Home" />
@@ -83,12 +89,14 @@ export default function Home() {
 
   {/* <!-- Meta tags for Instagram --> */}
   <meta property="og:title" content="ABHI | Home" />
+  <meta name="description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend"/>
   <meta property="og:description" content="As a passionate frontend developer, I am always eager to explore the latest technologies and stay ahead of the curve. With a deep understanding of the frontend" />
-  <meta property="og:image" content="https://img.icons8.com/color/512/nextjs.png" />
+  <meta property="og:image" content="/mainPage.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="628" />
   <meta property="og:url" content="https://abhijeet-kumar-dev.netlify.app/Component/Home" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ABHI" />
 </Head>
 
 
