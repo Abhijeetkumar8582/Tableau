@@ -59,26 +59,17 @@ export default function Home() {
 </div>
 
 <h1>New Stories</h1>
-<div className='container justify-content-center'>
-  <div className='row justify-content-center'>
+<div className='container '>
+  <div className='row justify-content-between'>
   {getAPIS.map((element,index)=>(
-   
-   <div className="card mb-3 mx-3" key={index} style={{maxWidth: "540px"}}>
-  <div className="row g-0">
-    <div className="col-md-4">
-    <Image src="/favicon.ico" width={300} height={300}  alt="..." />
-
-    </div>
-    <div className="col-md-8">
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+   <div className='col-md-3 mx-3 my-3'>
+   <div class="card" style={{width: "18rem"}}>
+  <img src="..." class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
-  
+</div>
   ))}
   </div>
 </div>
