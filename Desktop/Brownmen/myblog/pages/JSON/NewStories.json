@@ -1,0 +1,31 @@
+[{
+    "id":"1",
+    "title":"Set realistic goals",
+    "by":"Fitness",
+    "reviewed":"by author: Abhijeet kumar",
+    "image":"https://images.pexels.com/photos/5319384/pexels-photo-5319384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category":"Top Exercise"
+},
+{
+    "id":"2",
+    "title":"Nerd Fitness",
+    "by":"Diet",
+    "reviewed":"by author: Abhijeet kumar",
+    "image":"https://images.pexels.com/photos/1988624/pexels-photo-1988624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category":"Eat Healthy"
+},
+{
+    "id":"3",
+    "title":"Fit Bottomed Girls ",
+    "by":"Diet",
+    "reviewed":"by author: Abhijeet kumar",
+    "image":"https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category":"Live well"
+},{
+    "id":"4",
+    "title":"Born Fitness ",
+    "by":"Fitness",
+    "reviewed":"by author: Abhijeet kumar",
+    "image":"https://images.pexels.com/photos/6454159/pexels-photo-6454159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category":"Yoga"
+}]
